@@ -1,55 +1,73 @@
-# Nrityashaily Dance Institute
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nrityashaily Dance Institute</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lato&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <title>Nrityashailydanceinstitute</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400|Lato:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero">
-    <div class="overlay">
+  <header>
+    <div class="container">
       <h1>Nrityashaily Dance Institute</h1>
-      <p>Awaken the Dancer in You</p>
-      <a href="#contact" class="btn">Join Now</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#classes">Classes</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
   </header>
-
-  <section class="about">
-    <h2>About Us</h2>
-    <p>We are dedicated to preserving and teaching the traditional art forms of Indian classical dance including Bharatanatyam and Kathak.</p>
-  </section>
-
-  <section class="gallery">
-    <h2>Gallery</h2>
-    <div class="grid">
-      <img src="images/gallery1.jpg" alt="Performance 1" />
-      <img src="images/gallery2.jpg" alt="Performance 2" />
-      <img src="images/gallery3.jpg" alt="Class Practice" />
-      <img src="images/gallery4.jpg" alt="Recital" />
+  <section class="hero">
+    <div class="container">
+      <h2>Grace. Rhythm. Tradition.</h2>
+      <p>Experience the beauty of dance with our expert instructors.</p>
+      <a href="#enroll" class="cta-btn">Enroll Now</a>
     </div>
   </section>
-
-  <section class="instructors">
-    <h2>Our Instructors</h2>
-    <div class="instructor-grid">
-      <div class="card">
-        <img src="images/teacher1.jpg" alt="Instructor 1" />
-        <h3>Naveen Anoriya</h3>
-        <p>Expert in Kathak</p>
+  <section id="about" class="info-section">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Nrityashaily Dance Institute is dedicated to preserving and promoting classical and contemporary dance forms. Our experienced instructors guide students of all ages and skill levels in a nurturing environment.</p>
+    </div>
+  </section>
+  <section id="classes" class="info-section cards-section">
+    <div class="container">
+      <h2>Our Classes</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Bharatanatyam</h3>
+          <p>Beginner to Advanced</p>
+          <p>Monday & Wednesday</p>
+        </div>
+        <div class="card">
+          <h3>Kathak</h3>
+          <p>All Levels</p>
+          <p>Tuesday & Thursday</p>
+        </div>
+        <div class="card">
+          <h3>Fusion</h3>
+          <p>Modern meets Tradition</p>
+          <p>Friday</p>
+        </div>
       </div>
     </div>
   </section>
-
-  <section class="contact" id="contact">
-    <h2>Contact Us</h2>
-    <p>Email: nrityashaily@example.com</p>
+  <section id="contact" class="info-section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit" class="cta-btn">Send Message</button>
+      </form>
+    </div>
   </section>
-
   <footer>
-    <p>© 2025 Nrityashaily Dance Institute</p>
+    <div class="container">
+      <p>© 2025 Nrityashaily Dance Institute. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
