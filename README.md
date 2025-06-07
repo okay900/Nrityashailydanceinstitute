@@ -1,4 +1,4 @@
-# Nrityashailydanceinstitute
+# Nrityashaily Dance Institute
 <!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
