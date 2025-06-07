@@ -37,12 +37,7 @@
     <div class="instructor-grid">
       <div class="card">
         <img src="images/teacher1.jpg" alt="Instructor 1" />
-        <h3>Guru Anjali Devi</h3>
-        <p>30+ years in Bharatanatyam</p>
-      </div>
-      <div class="card">
-        <img src="images/teacher2.jpg" alt="Instructor 2" />
-        <h3>Guru Rajeshwari</h3>
+        <h3>Naveen Anoriya</h3>
         <p>Expert in Kathak</p>
       </div>
     </div>
@@ -51,7 +46,6 @@
   <section class="contact" id="contact">
     <h2>Contact Us</h2>
     <p>Email: nrityashaily@example.com</p>
-    <p>Phone: +91 98765 43210</p>
   </section>
 
   <footer>
